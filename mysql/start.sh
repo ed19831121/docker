@@ -6,4 +6,5 @@ docker 	run 					\
 	-e MYSQL_ROOT_PASSWORD=$PASSWORD 	\
 	-v conf:/etc/mysql/conf.d 		\
 	-v data:/var/lib/mysql			\
+	--name mysql-1				\
 	-d mysql
